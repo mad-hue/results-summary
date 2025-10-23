@@ -1,0 +1,17 @@
+body {
+    background-color: var(--clr-paleblue);
+    font-family: var(--font-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* font-size: 18px; paragraph */
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* .wrapper {
+    border: 2px solid red;
+    width: 800px;
+} */

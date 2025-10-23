@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+:root {
+    /* font */
+    --font-primary: "Hanken Grotesk", sans-serif;
+    /* colors */
+    --clr-lightred: hsl(0, 100%, 67%);
+    --clr-orangey: hsl(39, 100%, 56%);
+    --clr-greenteal: hsl(166, 100%, 37%);
+    --clr-cobaltblue: hsl(234, 85%, 45%);
+
+    /* gradients */
+    --clr-slateblue: hsl(252, 100%, 67%); /* background */
+    --clr-royalblue: hsl(241, 81%, 54%); /* background */
+    
+    --clr-violetblue: hsla(256, 72%, 46%, 1); /* circle */
+    --clr-persianblue: hsla(241, 72%, 46%, 0); /* circle */
+
+    /* neutral */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-paleblue: hsl(221, 100%, 96%);
+    --clr-lightlavender: hsl(241, 100%, 89%);
+    --clr-darkgreyblue: hsl(224, 30%, 27%);
+}
