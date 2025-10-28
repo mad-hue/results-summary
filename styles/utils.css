@@ -7,12 +7,6 @@ body {
     min-height: 100vh;
 }
 
-/* font-size: 18px; paragraph */
-/* - Mobile: 375px
-- Desktop: 1440px */
-
 .wrapper {
-    /* border: 2px solid red; */
-    width: 800px;
     display: flex;
 }

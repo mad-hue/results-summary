@@ -5,6 +5,9 @@
     color: var(--clr-white);
     border-radius: 30px;
     padding: 2rem;
+
+    position: relative;
+    left: 40px;
 }
 
 .results__title1 {
@@ -16,7 +19,6 @@
 
 .results__circle {
     background: linear-gradient(to bottom, var(--clr-violetblue), var(--clr-persianblue));
-    /* border: 2px solid red; */
     width: 180px;
     height: 180px;
     border-radius: 50%;

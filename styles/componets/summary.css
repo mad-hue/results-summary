@@ -1,8 +1,8 @@
 .summary {
     background: var(--clr-white);
-    width: 350px;
+    width: 400px;
     font-family: var(--font-primary);
-    padding: 2rem;
+    padding: 2rem 2rem 2em 5rem;
     border-radius: 30px;
 }
 
