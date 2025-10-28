@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <link rel="stylesheet" href="./styles/componets/results.css">
+    <link rel="stylesheet" href="./styles/componets/summary.css">
     <title>Results_Summary</title>
 </head>
 <body>
@@ -21,10 +22,43 @@
                 <h1 class="circle-title">76</h1> 
                 <p class="circle-text">of 100</p>
             </div>
-            <h1 class="results__title11">Great</h1>
+            <h2 class="results__title11">Great</h2>
             <p class="results__description">You scored higher than 65% of people who have taken these tests.</p>
         </div>
-        <div class="summary"></div>
+        <div class="summary">
+            <h1 class="summary__title">Summary</h1>
+            <div class="summary__container">
+                <div class="summary__box reaction">
+                    <div class="summary__left">
+                    <img src="./images/reaction.svg" alt="reaction" class="summary-icon">
+                    <span class="summary__text-reaction">Reaction</span>
+                    </div>
+                    <p><span class="score">80 </span><span class="max">/ 100</span></p>
+                </div>
+                <div class="summary__box memory">
+                    <div class="summary__left">
+                    <img src="./images/memory.svg" alt="memory" class="summary-icon">
+                    <span class="summary__text-memory">Memory</span>
+                    </div>
+                    <p><span class="score">92 </span><span class="max">/ 100</span></p>
+                </div>
+                <div class="summary__box verbal">
+                    <div class="summary__left">
+                    <img src="./images/verbal.svg" alt="verbal" class="summary-icon">
+                    <span class="summary__text-verbal">Verbal</span>
+                    </div>
+                    <p><span class="score">61 </span><span class="max">/ 100</span></p>
+                </div>
+                <div class="summary__box visual">
+                    <div class="summary__left">
+                    <img src="./images/visual.svg" alt="visual" class="summary-icon">
+                    <span class="summary__text-visual">Visual</span>
+                    </div>
+                    <p><span class="score">73 </span><span class="max">/ 100</span></p>
+                </div>
+            </div>
+            <a href="#" class="summary__btn">Continue</a>
+        </div>
     </section>
 </body>
 </html>
