@@ -3,7 +3,7 @@
     width: 350px;
     text-align: center;
     color: var(--clr-white);
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 2rem;
 
     position: relative;
@@ -41,9 +41,46 @@
   font-size: 0.9rem;
 }
 
+.results__title11 {
+  font-size: 1.9rem;
+}
+
 .results__description {
   font-size: 1.1rem;
   max-width: 24ch;
   color: var(--clr-lightlavender);
   margin: 20px auto;
+}
+
+@media (max-width: 375px) {
+  .results {
+    position: relative;
+    left: auto;
+    bottom: -30px;
+    width: 100%;
+  }
+  
+  .results__title1 {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .results__circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circle-title {
+    font-size: 3rem;
+  }
+
+  .results__title11 {
+    font-size: 1.5rem;
+  }
+
+  .results__description {
+    font-size: 0.9rem;
+    max-width: 30ch;
+    margin: 10px auto;
+  }
 }

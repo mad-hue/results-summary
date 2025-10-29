@@ -2,8 +2,9 @@
     background: var(--clr-white);
     width: 400px;
     font-family: var(--font-primary);
-    padding: 2rem 2rem 2em 5rem;
-    border-radius: 30px;
+    padding: 2rem;
+    padding-left: 5rem;
+    border-radius: 40px;
 }
 
 .summary__title {
@@ -90,4 +91,24 @@
 .summary__btn:hover {
     background: linear-gradient(to bottom, var(--clr-slateblue), var(--clr-royalblue));
     transform: translateY(10px);
+}
+
+@media (max-width: 375px) {
+    .summary {
+        padding: 4rem 3rem ;
+    }
+
+    .summary__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+
+    .summary__box {
+        font-size: 0.9rem;
+    }
+
+    .summary__btn {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+    }
 }
