@@ -84,3 +84,11 @@
     margin: 10px auto;
   }
 }
+
+@media (max-width: 428px) {
+  .results {
+    position: relative;
+    left: 0;
+    top: 55px;
+  }
+}

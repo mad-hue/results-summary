@@ -112,3 +112,11 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 428px) {
+    .summary {
+        width: 350px;
+        padding: 2rem;
+        padding-top:5rem;
+    }
+}

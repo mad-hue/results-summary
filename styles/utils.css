@@ -16,3 +16,11 @@ body {
         display: block;
     }
 }
+
+@media (max-width: 428px) {
+    .wrapper {
+        display: block;
+    }
+}
+
+/* @media (max-width: 768px) {} */
